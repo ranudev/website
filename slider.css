@@ -1,0 +1,253 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.nav{
+
+    background-color: black;
+    color: white;
+    padding: 20px 50px;
+   
+}
+.logo{
+    display: flex;
+  justify-content: flex-start;
+    align-items: center;
+     
+}
+.search{
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-left: 350px;
+    cursor: pointer;
+    color:black;
+    background-color:transparent;
+    
+}
+.search::placeholder{
+    color: lightgrey;
+}
+.searchbar{
+margin-left: -40px;
+margin-bottom: -5px;
+
+
+}
+.nav-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    cursor: pointer;
+
+}
+.nav-bottom li:hover{
+
+    border-bottom: 2px solid white;
+}
+ul li{
+ 
+    display: inline;
+    justify-content: space-between;
+    margin-right: 60px;
+
+}
+li{
+    font-size: 2rem;
+}
+.limited{
+
+font-size: 1.5rem;
+margin-left: 280px;
+text-decoration-line: underline;
+text-decoration-color: green;
+
+}
+.slides{
+ 
+   background-image:url("https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
+   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+  overflow: hidden;   
+}
+
+/* }.airshoes{
+
+  margin-left: 280px; */
+
+.slidewrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bgshoe{
+ margin-top:20px;
+ background-color:lightgreen;
+height: 600px;
+width:600px;
+ border-radius:100%     
+}
+.title{
+    font-size:70px;
+    color: white;
+    margin-left:-160px;
+   text-align: center;
+   margin-bottom: 140px;
+    
+}
+.price{
+    color:darkgreen;
+    padding: 2px;
+    font-size: 4rem;
+    margin: 50px 100px 300px 30px;
+   
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 30px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.shoes2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;                           
+    position: relative;
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+    overflow: hidden;   
+}
+.colors{
+
+    display: flex;
+    
+  
+}
+.color{
+    height: 30px;
+    width: 30px;
+    background-color:aquamarine;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.color:last-child{
+    
+background-color: black;
+}
+.sizes{
+    display: flex;
+    
+    /*  */
+
+}
+.size{
+     border:solid black;
+     margin-right: 20px ;
+     padding: 10px;
+     width: 35px;
+     text-align: center;
+     
+
+}
+button{
+    float: right;
+    font-size:20px;
+    margin-right: 50px;
+}
+.galleryitems{
+
+    display: flex;
+    padding: 50px;
+    /* justify-content: center;
+    align-items: center;
+    margin: 30px; */
+    
+
+    
+}
+.galleryItem{
+   
+   flex: 1;
+   padding: 50px;
+}
+.galleryImg{
+    height: 400px;
+    width: 350px;
+
+    /* margin-right: 200px;
+} */
+}
+.newseason{
+    background-color: black;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nsImg{
+    height: 500px;
+    width: 400px;
+    margin-left: 90px;
+
+    
+}
+.nsimg{
+    height: 500px;
+    width: 400px;
+    margin-right: 90px;
+}
+    
+
+.nsTitleSm{
+    text-align: center;
+    font-size:20px;
+    color: wheat;
+
+}
+.nsTitle{
+
+    text-align: center;
+    font-size:35px;
+    color: wheat;
+   padding: 10px;
+
+}
+.nsButton{
+/* padding: 20px;
+background-color: white;
+color: black;
+font-size: 0.9rem;
+
+margin-right: 60px; */
+
+  font-weight: 600;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+ 
+  
+
+}
+.footer{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.det{
+    cursor: pointer;
+}
